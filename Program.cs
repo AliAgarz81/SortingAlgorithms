@@ -5,7 +5,7 @@ class Program
     static void Main()
     {
         int[] numbers = new[] { 12, 5, 6, 8, 29, 17 };
-        MergeSort mergeSort = new MergeSort();
+        //Call any sorting algorith here. For Ex:
         MergeSort.Sort(numbers);
         foreach (var number in numbers)
         {
